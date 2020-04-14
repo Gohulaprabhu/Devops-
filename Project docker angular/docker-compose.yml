@@ -1,0 +1,6 @@
+version: '2'
+services:
+  angular:
+    build: app
+    ports:
+      - "4200:4200"
